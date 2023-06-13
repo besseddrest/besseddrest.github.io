@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2rem 3rem;
+  line-height: normal;
+}
+
+h1, h2, h3, h4 {
+  margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  gap: 1rem;
+
+  main {
+    flex: 1 1 75%;
+  }
+
+  aside {
+    flex: 1 1 25%;
+  }
+}
+
+.portfolio {
+  &__card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+  } 
+
+  &__card {
+    flex: 1 1 calc((100%/2) - 2rem);
+
+    h4, p {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
