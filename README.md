@@ -1,2 +1,2 @@
 # Profile 
-Visit my github personal profile [here](https://www.example.com](https://besseddrest.github.io/)https://besseddrest.github.io/).
+Check out some projects I've worked on at my person profile (WIP) [here](https://www.example.com](https://besseddrest.github.io/)https://besseddrest.github.io/).
