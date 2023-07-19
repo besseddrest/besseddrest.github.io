@@ -62,3 +62,22 @@ h1 {
     }
   }
 }
+
+.modal {
+  background: transparent;
+  border: 0;
+
+  &:focus {
+    border: 0;
+    outline: none;
+  }
+
+  &::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  img {
+    width: auto;
+    height: calc(100vh - 4rem);
+  }
+}

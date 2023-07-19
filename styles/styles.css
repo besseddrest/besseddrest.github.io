@@ -56,4 +56,20 @@ h1 {
   height: auto;
 }
 
+.modal {
+  background: transparent;
+  border: 0;
+}
+.modal:focus {
+  border: 0;
+  outline: none;
+}
+.modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal img {
+  width: auto;
+  height: calc(100vh - 4rem);
+}
+
 /*# sourceMappingURL=styles.css.map */
